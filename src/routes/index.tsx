@@ -67,7 +67,7 @@ function HomePage() {
           </ContentCard>
           <ContentCard label="Server address" accent>
             <dl className="server-details">
-              <div><dt>Server code</dt><dd>wait for this information</dd></div>
+              <div><dt>Server code</dt><dd>RtWzFhGNP29jKzY</dd></div>
               <div><dt>MC Bedrock Only</dt><dd>All MCB Supported devices are allowed</dd></div>
             </dl>
             <p className="placeholder-note">Replace these placeholders with the live FFL server details.</p>
