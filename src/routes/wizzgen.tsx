@@ -11,7 +11,7 @@ function WizzGenPage() {
   return (
     <GamingPage
       eyebrow="A different kind of Bedrock Sygen"
-      title={<>WizzGen MC <span>Bedrock</span></>}
+      title={<>WizzGen MCB <span>Bedrock</span></>}
       summary="A creative Minecraft Bedrock project where experimental generation, fresh challenges, and community-led ideas turn every session into something unexpected."
       badge="World Loading"
       icon={WandSparkles}
@@ -48,14 +48,14 @@ function WizzGenPage() {
             <StepList steps={[
               'Make sure Minecraft Bedrock is updated to the latest supported version.',
               'Ask an FFL Team admin for the current WizzGen access details.',
-              'Open Play, select Realms, and choose Add exis Realm.',
+              'Open Play, select Realms, and choose Add existing Realm.',
               'Enter the provided code and click join, wait, then play.',
             ]} />
           </ContentCard>
           <ContentCard label="Access details" accent>
             <dl className="server-details">
               <div><dt>Server code</dt><dd>Wait for this infomation</dd></div>
-              <div><dt>MCB Realm only</dt><dd>All devices</dd></div>
+              <div><dt>MCB Realm only</dt><dd>All devices where MCB is supported</dd></div>
             </dl>
             <p className="placeholder-note">Server details are placeholders ready for the official address.</p>
           </ContentCard>
