@@ -11,26 +11,26 @@ function XboxClubPage() {
   return (
     <GamingPage
       eyebrow="Find teammates beyond the server"
-      title={<>My Xbox <span>Club</span></>}
+      title={<>The Xbox <span>Group Chat</span></>}
       summary="The FFL Team gathering place on Xbox for finding players, sharing clips, planning sessions, and keeping up with everything happening across the community."
-      badge="Club Open"
+      badge="Group Chat is currently open"
       icon={UsersRound}
-      primaryAction={{ label: 'Find the club', href: '#join' }}
-      secondaryAction={{ label: 'View club rules', href: '#rules' }}
+      primaryAction={{ label: 'Find the Group Chat', href: '#join' }}
+      secondaryAction={{ label: 'View the rules', href: '#rules' }}
       stats={[
         { value: 'XBOX', label: 'Platform' },
         { value: 'SOCIAL', label: 'Club type' },
-        { value: 'OPEN', label: 'Requests' },
+        { value: 'MESSAGE TROLLINGWIZZBA', label: 'Requests' },
       ]}
     >
       <section className="section-block intro-grid" aria-labelledby="club-about">
         <div className="section-heading">
-          <p className="section-number">01 / Clubhouse</p>
+          <p className="section-number">01 / Group Chat</p>
           <h2 id="club-about">Your shortcut to the FFL community.</h2>
         </div>
         <div className="intro-copy">
           <p>
-            The Xbox Club keeps the team connected between sessions. Members can find people to play
+            The Xbox Group Chat keeps the team connected between sessions. Members can find people to play
             with, share their best moments, receive event updates, and organize parties around the games they enjoy.
           </p>
           <InfoStrip icon={BadgeCheck} title="One shared space" text="Looking-for-group posts, screenshots, clips, updates, and community events." />
@@ -46,15 +46,15 @@ function XboxClubPage() {
           <ContentCard label="Find the club">
             <StepList steps={[
               'Open the People tab from your Xbox console guide.',
-              'Choose Clubs, then select Find a club.',
-              'Search for the official club name shown in the panel.',
-              'Open the club page and select Request to join.',
-              'Include your connection to FFL Team if a message option appears.',
+              'Choose Find Someone, then type "TrollingWizzba".',
+              'Message the account saying"invite me to the FFL Group Chat, please."',
+              'Wait untill you get a reply, saying "ok".',
+              'If you require a invite to join, keep an eye out in your chats.',
             ]} />
           </ContentCard>
           <ContentCard label="Official club name" accent>
-            <div className="club-name">FFL TEAM XBOX CLUB</div>
-            <p className="placeholder-note">Replace this placeholder with the exact searchable Xbox Club name.</p>
+            <div className="club-name">FFL TEAM XBOX GROUP CHAT</div>
+            <p className="placeholder-note">TrollingWizzba</p>
           </ContentCard>
         </div>
       </section>
