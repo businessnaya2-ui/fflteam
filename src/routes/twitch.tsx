@@ -11,7 +11,7 @@ function TwitchPage() {
   return (
     <GamingPage
       eyebrow="Live gameplay and community sessions"
-      title={<>My Twitch <span>Channel</span></>}
+      title={<>My Twitch <span>mrjdh_ffl</span></>}
       summary="Catch live Minecraft adventures, community games, new projects, and relaxed squad sessions — then jump in and become part of the stream."
       badge="Go Live"
       icon={Twitch}
@@ -31,7 +31,7 @@ function TwitchPage() {
         <div className="stream-cta-wrap">
           <span><i /> Channel status</span>
           <a className="stream-button" href="#stream-link" aria-label="Open the FFL Team Twitch channel">
-            <Twitch /> twitch.tv/YOUR_CHANNEL
+            <Twitch /> twitch.tv/mrjdh_ffl
           </a>
         </div>
       </section>
